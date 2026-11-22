@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6">
+                                <ellipse cx="12" cy="12" rx="2.2" ry="7.3"></ellipse>
+                                <ellipse cx="12" cy="12" rx="7.3" ry="2.2"></ellipse>
+                                <path stroke-linecap="round" d="M6.5 5.8C10.6 4 14.8 4 17.5 6.7c2.7 2.7 2.7 6.9.9 11M17.5 5.8C13.4 4 9.2 4 6.5 6.7c-2.7 2.7-2.7 6.9-.9 11"></path>
+                                <text x="12" y="13" text-anchor="middle" dominant-baseline="middle" font-size="3.5" font-weight="700" fill="currentColor">AI</text>
+                            </svg>
