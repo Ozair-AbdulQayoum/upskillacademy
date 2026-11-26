@@ -100,6 +100,10 @@ const clientItemSchema = new mongoose.Schema(
       required: true,
       trim: true,
     },
+    logoFileId: {
+      type: String,
+      default: null,
+    },
   },
   { timestamps: true },
 );
@@ -124,6 +128,10 @@ const valueItemSchema = new mongoose.Schema(
       type: String,
       required: true,
       trim: true,
+    },
+    iconFileId: {
+      type: String,
+      default: null,
     },
   },
   { timestamps: true },
@@ -160,8 +168,6 @@ const servicesPageSchema = new mongoose.Schema(
       default: [],
     },
 
-    // Tracks whether original Values have been migrated.
-    // Prevents duplicate insertion after deletion or refresh.
     valuesSeeded: {
       type: Boolean,
       default: false,
